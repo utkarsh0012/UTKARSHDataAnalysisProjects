@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "databricks-multicloud",
+        "address": {
+          "host": "dbc-1f547993-7be9.cloud.databricks.com",
+          "path": "/sql/1.0/warehouses/b044da4b6f495e37"
+        },
+        "authentication": null,
+        "query": null
+      },
+      "options": {
+        "Catalog": "samples",
+        "Database": "nyctaxi"
+      },
+      "mode": "DirectQuery"
+    }
+  ]
+}
